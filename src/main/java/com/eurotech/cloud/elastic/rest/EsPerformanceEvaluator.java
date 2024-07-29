@@ -23,7 +23,7 @@ public class EsPerformanceEvaluator {
     private final Random rand = new Random();
 
     void runPerformanceTest() {
-        int repetitions = 5;
+        int repetitions = 2; //odd numbers
         final int availableProcessors = Runtime.getRuntime().availableProcessors();
         System.out.println(String.format("Available processors: %2d, Attempts per combination: %2d", availableProcessors, repetitions));
 
